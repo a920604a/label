@@ -15,9 +15,9 @@
 #                       --output-coco-file ./result/merge.json \
 #                       -r
 
-python3 label2mask.py  --input-path ./data/D4 \
-                       --output-image-path ./result/D4-Image \
-                       --output-mask-path ./result/D4-Mask \
+python3 label2mask.py  --input-path ./data/images\
+                       --output-image-path ./result/Image \
+                       --output-mask-path ./result/Mask \
                        --augm-times 50 \
                        --pool-size 80
 #                        -r
